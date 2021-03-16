@@ -1,0 +1,731 @@
+15-03-2021 10:13:27.709 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+15-03-2021 10:13:27.710 [Gauge] [INFO] Watching directory: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs
+15-03-2021 10:13:27.711 [Gauge] [DEBUG] Found 1 files
+15-03-2021 10:13:27.715 [Gauge] [INFO] Initializing specs cache with 1 specs
+15-03-2021 10:13:27.715 [Gauge] [DEBUG] Adding specs from c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\example.spec
+15-03-2021 10:13:27.715 [Gauge] [INFO] Initializing steps cache with 1 steps
+15-03-2021 10:13:27.718 [Gauge] [INFO] Starting language runner
+15-03-2021 10:13:28.244 [python] [ERROR] '"C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\python.exe -m pip install getgauge==0.3.14 --user"' is not recognized as an internal or external command,
+15-03-2021 10:13:28.245 [python] [ERROR] operable program or batch file.
+15-03-2021 10:13:28.246 [python] [ERROR] Traceback (most recent call last):
+15-03-2021 10:13:28.246 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 32, in assert_versions
+15-03-2021 10:13:28.246 [python] [ERROR] getgauge_version = pkg_resources.get_distribution('getgauge').version
+15-03-2021 10:13:28.246 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 480, in get_distribution
+15-03-2021 10:13:28.252 [python] [ERROR] dist = get_provider(dist)
+15-03-2021 10:13:28.252 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 356, in get_provider
+15-03-2021 10:13:28.253 [python] [ERROR] return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+15-03-2021 10:13:28.253 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 899, in require
+15-03-2021 10:13:28.253 [python] [ERROR] needed = self.resolve(parse_requirements(requirements))
+15-03-2021 10:13:28.253 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 785, in resolve
+15-03-2021 10:13:28.253 [python] [ERROR] raise DistributionNotFound(req, requirers)
+15-03-2021 10:13:28.253 [python] [ERROR] pkg_resources.DistributionNotFound: The 'getgauge' distribution was not found and is required by the application
+15-03-2021 10:13:28.253 [python] [ERROR] During handling of the above exception, another exception occurred:
+15-03-2021 10:13:28.253 [python] [ERROR] Traceback (most recent call last):
+15-03-2021 10:13:28.253 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 40, in <module>
+15-03-2021 10:13:28.253 [python] [ERROR] assert_versions()
+15-03-2021 10:13:28.253 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 36, in assert_versions
+15-03-2021 10:13:28.254 [python] [ERROR] install_getgauge("getgauge=="+expected_gauge_version)
+15-03-2021 10:13:28.254 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 20, in install_getgauge
+15-03-2021 10:13:28.254 [python] [ERROR] check_output([" ".join(install_cmd)], shell=True)
+15-03-2021 10:13:28.254 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 424, in check_output
+15-03-2021 10:13:28.259 [python] [ERROR] return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+15-03-2021 10:13:28.259 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 528, in run
+15-03-2021 10:13:28.260 [python] [ERROR] raise CalledProcessError(retcode, process.args,
+15-03-2021 10:13:28.260 [python] [ERROR] subprocess.CalledProcessError: Command '['C:\\Users\\sembhyh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe -m pip install getgauge==0.3.14 --user']' returned non-zero exit status 1.
+15-03-2021 10:13:28.394 [python] [ERROR] Traceback (most recent call last):
+15-03-2021 10:13:28.394 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\start.py", line 9, in <module>
+15-03-2021 10:13:28.394 [python] [ERROR] import grpc
+15-03-2021 10:13:28.394 [python] [ERROR] ModuleNotFoundError:
+15-03-2021 10:13:28.394 [python] [ERROR] No module named 'grpc'
+15-03-2021 10:13:28.408 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+15-03-2021 10:13:28.408 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+15-03-2021 10:13:28.408 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+15-03-2021 10:13:28.631 [Gauge] [INFO] Connection closed
+15-03-2021 10:13:28.631 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+15-03-2021 10:13:31.232 [Gauge] [INFO] Watching directory: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs
+15-03-2021 10:13:31.233 [Gauge] [DEBUG] Found 1 files
+15-03-2021 10:13:31.232 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+15-03-2021 10:13:31.234 [Gauge] [INFO] Initializing specs cache with 1 specs
+15-03-2021 10:13:31.234 [Gauge] [DEBUG] Adding specs from c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\example.spec
+15-03-2021 10:13:31.234 [Gauge] [INFO] Initializing steps cache with 1 steps
+15-03-2021 10:13:31.235 [Gauge] [INFO] Starting language runner
+15-03-2021 10:13:31.621 [python] [ERROR] '"C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\python.exe -m pip install getgauge==0.3.14 --user"' is not recognized as an internal or external command,
+15-03-2021 10:13:31.621 [python] [ERROR] operable program or batch file.
+15-03-2021 10:13:31.622 [python] [ERROR] Traceback (most recent call last):
+15-03-2021 10:13:31.622 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 32, in assert_versions
+15-03-2021 10:13:31.622 [python] [ERROR] getgauge_version = pkg_resources.get_distribution('getgauge').version
+15-03-2021 10:13:31.622 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 480, in get_distribution
+15-03-2021 10:13:31.623 [python] [ERROR] dist = get_provider(dist)
+15-03-2021 10:13:31.623 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 356, in get_provider
+15-03-2021 10:13:31.623 [python] [ERROR] return working_set.find(moduleOrReq) or require(str(moduleOrReq))[0]
+15-03-2021 10:13:31.623 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 899, in require
+15-03-2021 10:13:31.624 [python] [ERROR] needed = self.resolve(parse_requirements(requirements))
+15-03-2021 10:13:31.624 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\site-packages\pkg_resources\__init__.py", line 785, in resolve
+15-03-2021 10:13:31.624 [python] [ERROR] raise DistributionNotFound(req, requirers)
+15-03-2021 10:13:31.624 [python] [ERROR] pkg_resources.DistributionNotFound: The 'getgauge' distribution was not found and is required by the application
+15-03-2021 10:13:31.624 [python] [ERROR] During handling of the above exception, another exception occurred:
+15-03-2021 10:13:31.624 [python] [ERROR] Traceback (most recent call last):
+15-03-2021 10:13:31.624 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 40, in <module>
+15-03-2021 10:13:31.624 [python] [ERROR] assert_versions()
+15-03-2021 10:13:31.624 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 36, in assert_versions
+15-03-2021 10:13:31.625 [python] [ERROR] install_getgauge("getgauge=="+expected_gauge_version)
+15-03-2021 10:13:31.625 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\check_and_install_getgauge.py", line 20, in install_getgauge
+15-03-2021 10:13:31.625 [python] [ERROR] check_output([" ".join(install_cmd)], shell=True)
+15-03-2021 10:13:31.625 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 424, in check_output
+15-03-2021 10:13:31.625 [python] [ERROR] return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+15-03-2021 10:13:31.625 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 528, in run
+15-03-2021 10:13:31.626 [python] [ERROR] raise CalledProcessError(retcode, process.args,
+15-03-2021 10:13:31.626 [python] [ERROR] subprocess.CalledProcessError: Command '['C:\\Users\\sembhyh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe -m pip install getgauge==0.3.14 --user']' returned non-zero exit status 1.
+15-03-2021 10:13:31.716 [python] [ERROR] Traceback (most recent call last):
+15-03-2021 10:13:31.716 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.14\start.py", line 9, in <module>
+15-03-2021 10:13:31.716 [python] [ERROR] import grpc
+15-03-2021 10:13:31.716 [python] [ERROR] ModuleNotFoundError: No module named 'grpc'
+15-03-2021 10:13:31.730 [Gauge] [ERROR] Error occurred while waiting for runner process to finish.
+Error : exit status 1
+15-03-2021 10:13:31.730 [Gauge] [DEBUG] Gauge could not initialize. Install 'ms-python.python' extension for code insights. For more information see[Problems](command:workbench.actions.view.problems), check logs.[Troubleshooting](https://docs.gauge.org/troubleshooting.html?language=javascript&ide=vscode#gauge-could-not-initialize-for-more-information-see-problems)
+Some of the gauge lsp feature will not work as expected.
+15-03-2021 10:13:31.730 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+15-03-2021 10:13:31.737 [Gauge] [ERROR] notif #0: initialized: current runner is not compatible with gauge LSP
+15-03-2021 10:13:32.399 [Gauge] [INFO] Connection closed
+15-03-2021 10:13:32.399 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed
+16-03-2021 13:22:49.847 [Gauge] [INFO] Watching directory: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs
+16-03-2021 13:22:49.848 [Gauge] [DEBUG] Found 1 files
+16-03-2021 13:22:49.849 [Gauge] [INFO] Initializing concepts cache with 0 concepts
+16-03-2021 13:22:49.855 [Gauge] [INFO] Initializing specs cache with 1 specs
+16-03-2021 13:22:49.855 [Gauge] [DEBUG] Adding specs from c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\example.spec
+16-03-2021 13:22:49.855 [Gauge] [INFO] Initializing steps cache with 1 steps
+16-03-2021 13:22:49.862 [Gauge] [INFO] Starting language runner
+16-03-2021 13:22:54.163 [python] [INFO] Python: 3.9.2
+16-03-2021 13:22:54.163 [python] [DEBUG] Loading step implementations from c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\step_impl dirs.
+16-03-2021 13:22:54.189 [python] [DEBUG] Starting grpc server..
+16-03-2021 13:22:54.224 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 55974
+16-03-2021 13:22:54.233 [Gauge] [DEBUG] Successfully made the connection with runner with port: 55974
+16-03-2021 13:22:54.233 [Gauge] [INFO] LangServer: reading on stdin, writing on stdout
+16-03-2021 13:22:54.248 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:22:54.259 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:22:54.263 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:22:54.289 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:22:54.291 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:22:54.293 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:15.549 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:15.551 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:15.797 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:15.799 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:24.128 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:24.130 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:24.932 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:24.934 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:25.649 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:25.651 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:45.654 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:40:45.745 [Gauge] [DEBUG] request #33: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements => '']
+16-03-2021 13:40:45.746 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:45.748 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:45.956 [Gauge] [DEBUG] request #34: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:45.962 [Gauge] [DEBUG] request #35: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:45.995 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:45.997 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:49.423 [Gauge] [DEBUG] request #36: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements => '']
+16-03-2021 13:40:54.723 [Gauge] [DEBUG] request #46: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements => '']
+16-03-2021 13:40:54.921 [Gauge] [DEBUG] request #47: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:54.922 [Gauge] [DEBUG] request #48: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:55.332 [Gauge] [DEBUG] request #49: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:55.346 [Gauge] [DEBUG] request #50: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:55.549 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:55.551 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:55.589 [Gauge] [DEBUG] request #51: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:55.590 [Gauge] [DEBUG] request #52: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:55.689 [Gauge] [DEBUG] request #53: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements => '']
+16-03-2021 13:40:55.839 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:40:55.842 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:40:56.167 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:56.170 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:56.203 [Gauge] [DEBUG] request #55: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:56.204 [Gauge] [DEBUG] request #56: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements
+16-03-2021 13:40:56.303 [Gauge] [DEBUG] request #57: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec does not have any elements => '']
+16-03-2021 13:40:56.627 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:40:56.629 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:40:56.670 [Gauge] [DEBUG] request #58: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:40:56.670 [Gauge] [DEBUG] request #59: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:40:56.769 [Gauge] [DEBUG] request #60: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:40:56.920 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:40:56.923 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:03.278 [Gauge] [DEBUG] request #62: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:41:10.601 [Gauge] [DEBUG] request #77: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:41:10.843 [Gauge] [DEBUG] request #78: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:10.846 [Gauge] [DEBUG] request #79: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:12.290 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:12.292 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:12.336 [Gauge] [DEBUG] request #81: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:12.337 [Gauge] [DEBUG] request #82: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:12.435 [Gauge] [DEBUG] request #83: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:41:12.585 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:12.588 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:14.244 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:14.247 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:14.285 [Gauge] [DEBUG] request #85: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:14.286 [Gauge] [DEBUG] request #86: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:14.384 [Gauge] [DEBUG] request #87: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:41:14.620 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:14.622 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:14.669 [Gauge] [DEBUG] request #88: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:14.670 [Gauge] [DEBUG] request #89: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:14.768 [Gauge] [DEBUG] request #90: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:41:14.920 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:14.924 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:16.999 [Gauge] [DEBUG] request #91: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:41:25.283 [Gauge] [DEBUG] request #105: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 13:41:25.523 [Gauge] [DEBUG] request #106: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:25.526 [Gauge] [DEBUG] request #107: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 13:41:25.863 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:25.865 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:26.201 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:26.203 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:36.058 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:36.060 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:36.353 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:36.356 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:37.180 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:37.182 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:38.003 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:38.005 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:38.984 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:38.989 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:39.372 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:39.374 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:39.706 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:39.709 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:39.920 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:39.922 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:40.173 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:40.175 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:40.586 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:40.588 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:40.882 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:40.884 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:42.004 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:42.006 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:42.674 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:42.676 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:41:42.969 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:42.972 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:54.835 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:55.050 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:55.121 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:55.286 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:55.361 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:55.382 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:55.551 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:56.080 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:56.455 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:56.750 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:56.754 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:57.750 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.026 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.119 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.423 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.515 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.672 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.701 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.882 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:58.959 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:59.054 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:41:59.542 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:41:59.548 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:01.551 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:02.039 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:02.042 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:03.149 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:03.151 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:42:03.439 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:03.442 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:05.676 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:06.059 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:06.552 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:06.948 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:07.316 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:07.668 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:07.903 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:08.276 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:08.278 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:42:08.567 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:08.570 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:13.014 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:13.668 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:13.967 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:13.970 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:14.641 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:14.935 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:14.938 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:16.741 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:16.742 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:42:17.039 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:17.042 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:22.011 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:22.013 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:42:22.304 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:22.308 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:30.010 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:30.226 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:30.863 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:31.149 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:31.151 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:34.516 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:34.518 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:42:34.550 [Gauge] [DEBUG] request #255: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:12 Scenario should have atleast one step
+16-03-2021 13:42:34.551 [Gauge] [DEBUG] request #256: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:12 Scenario should have atleast one step
+16-03-2021 13:42:34.650 [Gauge] [DEBUG] request #257: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:12 Scenario should have atleast one step => '']
+16-03-2021 13:42:34.802 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:34.805 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:36.098 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:36.394 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:36.398 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:36.929 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:42:36.931 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:42:37.223 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:42:37.225 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:13.768 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:13.878 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:14.031 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:14.107 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:14.594 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:14.598 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:14.937 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:15.175 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:15.278 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:15.769 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:15.772 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:16.156 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:16.256 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:16.342 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:16.587 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:16.631 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:16.695 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:16.848 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:17.337 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:17.340 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:18.727 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:19.216 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:19.223 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:19.979 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:20.444 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:20.737 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:20.739 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 13:43:29.240 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:29.242 [Gauge] [DEBUG] Validation completed.
+16-03-2021 13:43:33.731 [Gauge] [DEBUG] Validation started.
+16-03-2021 13:43:33.733 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:30:14.623 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:30:14.626 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:30:15.387 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:30:15.389 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:30:15.635 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:30:15.639 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:30:16.537 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:30:16.538 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:30:17.732 [python] [ERROR] Failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\step_impl\demo_steps.py: Error, got an unexpected token ENDL here:
+
+   1 from getgauge.python import step, before_scenario, Messages
+   2 import 
+   3 <---- here
+16-03-2021 15:30:17.736 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:30:17.739 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:30:18.548 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:30:18.551 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:30:20.851 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:30:20.853 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:00.680 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:00.682 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:00.720 [Gauge] [DEBUG] request #356: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:00.723 [Gauge] [DEBUG] request #357: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:00.819 [Gauge] [DEBUG] request #358: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character => '' [ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:00.972 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:00.976 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:02.375 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:02.377 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:02.416 [Gauge] [DEBUG] request #360: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:02.418 [Gauge] [DEBUG] request #361: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:02.516 [Gauge] [DEBUG] request #362: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character => '' [ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:02.667 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:02.672 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:13.247 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:13.251 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:13.288 [Gauge] [DEBUG] request #365: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:13.289 [Gauge] [DEBUG] request #366: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:13.388 [Gauge] [DEBUG] request #367: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character => '' [ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:13.948 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:13.950 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:13.985 [Gauge] [DEBUG] request #368: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:13.986 [Gauge] [DEBUG] request #369: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:14.240 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:14.242 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:15.144 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:15.146 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:15.183 [Gauge] [DEBUG] request #370: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:15.184 [Gauge] [DEBUG] request #371: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:15.282 [Gauge] [DEBUG] request #372: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character => '' [ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:15.435 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:15.438 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:19.884 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:19.886 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:19.926 [Gauge] [DEBUG] request #377: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:19.927 [Gauge] [DEBUG] request #378: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:20.027 [Gauge] [DEBUG] request #379: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character => '' [ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:20.295 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:20.297 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:20.343 [Gauge] [DEBUG] request #380: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:20.344 [Gauge] [DEBUG] request #381: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:20.443 [Gauge] [DEBUG] request #382: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character => '' [ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:20.594 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:20.598 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:21.297 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:21.300 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:21.328 [Gauge] [DEBUG] request #384: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:21.329 [Gauge] [DEBUG] request #385: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:21.428 [Gauge] [DEBUG] request #386: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario heading should have at least one character => '' [ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:21.579 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:21.582 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:24.184 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:24.186 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:24.560 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:24.563 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:24.600 [Gauge] [DEBUG] request #387: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:24.602 [Gauge] [DEBUG] request #388: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:24.698 [Gauge] [DEBUG] request #389: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:24.851 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:24.854 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:25.479 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:25.481 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:25.520 [Gauge] [DEBUG] request #391: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:25.521 [Gauge] [DEBUG] request #392: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:26.245 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:26.248 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:26.287 [Gauge] [DEBUG] request #393: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:26.288 [Gauge] [DEBUG] request #394: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:26.386 [Gauge] [DEBUG] request #395: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:26.538 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:26.541 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:27.692 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:27.694 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:28.273 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:28.275 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:28.311 [Gauge] [DEBUG] request #397: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:28.312 [Gauge] [DEBUG] request #398: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:28.411 [Gauge] [DEBUG] request #399: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:28.563 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:28.567 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:28.835 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:28.837 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:28.879 [Gauge] [DEBUG] request #401: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:28.880 [Gauge] [DEBUG] request #402: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:29.196 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:29.198 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:29.911 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:29.913 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:29.952 [Gauge] [DEBUG] request #403: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:29.953 [Gauge] [DEBUG] request #404: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:30.051 [Gauge] [DEBUG] request #405: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:30.203 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:30.206 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:32.208 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:32.210 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:32.247 [Gauge] [DEBUG] request #409: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:32.248 [Gauge] [DEBUG] request #410: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:32.348 [Gauge] [DEBUG] request #411: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:32.497 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:32.500 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:33.633 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:33.636 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:33.673 [Gauge] [DEBUG] request #413: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:33.674 [Gauge] [DEBUG] request #414: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:33.772 [Gauge] [DEBUG] request #415: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:34.091 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:34.093 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:34.126 [Gauge] [DEBUG] request #416: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:34.127 [Gauge] [DEBUG] request #417: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:34.710 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:34.712 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:34.752 [Gauge] [DEBUG] request #418: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:34.753 [Gauge] [DEBUG] request #419: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:34.851 [Gauge] [DEBUG] request #420: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:35.001 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:35.004 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:35.543 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:35.545 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:35.583 [Gauge] [DEBUG] request #422: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:35.584 [Gauge] [DEBUG] request #423: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:35.683 [Gauge] [DEBUG] request #424: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:35.800 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:35.802 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:36.041 [Gauge] [DEBUG] request #426: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:36.043 [Gauge] [DEBUG] request #427: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:36.086 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:36.088 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:36.319 [Gauge] [DEBUG] request #429: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:36.320 [Gauge] [DEBUG] request #430: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:36.418 [Gauge] [DEBUG] request #431: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:36.996 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:36.998 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:37.034 [Gauge] [DEBUG] request #432: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:37.034 [Gauge] [DEBUG] request #433: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:37.133 [Gauge] [DEBUG] request #434: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:37.283 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:37.286 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:37.986 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:37.988 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:38.024 [Gauge] [DEBUG] request #436: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:38.030 [Gauge] [DEBUG] request #437: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:38.124 [Gauge] [DEBUG] request #438: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:38.276 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:38.279 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:38.554 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:38.556 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:38.601 [Gauge] [DEBUG] request #439: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:38.602 [Gauge] [DEBUG] request #440: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step
+16-03-2021 15:34:38.700 [Gauge] [DEBUG] request #441: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:18 Scenario should have atleast one step => '']
+16-03-2021 15:34:38.851 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:38.853 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:39.520 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:39.522 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:39.758 [Gauge] [DEBUG] request #443: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:22 Step should not be blank
+16-03-2021 15:34:39.760 [Gauge] [DEBUG] request #444: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:22 Step should not be blank
+16-03-2021 15:34:39.859 [Gauge] [DEBUG] request #446: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:22 Step should not be blank => '']
+16-03-2021 15:34:40.011 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:40.016 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:40.340 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:40.342 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:34:40.576 [Gauge] [DEBUG] request #449: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:22 Step should not be blank
+16-03-2021 15:34:40.579 [Gauge] [DEBUG] request #450: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:22 Step should not be blank
+16-03-2021 15:34:40.675 [Gauge] [DEBUG] request #451: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:22 Step should not be blank => '']
+16-03-2021 15:34:40.828 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:40.832 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:41.233 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:42.281 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:42.956 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:43.242 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:43.245 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:45.071 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:45.363 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:45.366 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:45.906 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:46.195 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:46.199 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:46.419 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:46.427 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:46.594 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:46.726 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:46.823 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:46.907 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:47.049 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:47.193 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:47.403 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:47.470 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:47.588 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:47.860 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:47.963 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:48.041 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:48.537 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:48.542 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:49.778 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:50.260 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:50.263 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:50.906 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:34:51.195 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:34:51.198 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:35:00.155 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:35:00.159 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:35:02.408 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:35:02.411 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:35:24.941 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:35:24.945 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:35:25.235 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:35:25.238 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:50:34.195 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:50:34.198 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:50:34.750 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:50:34.754 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:50:35.234 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:50:35.237 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:57:56.024 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:57:56.027 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:13.193 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:13.196 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:13.482 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:13.484 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:17.716 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:17.719 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:18.006 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:18.010 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:23.781 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:24.071 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:24.075 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:29.033 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:29.326 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:29.329 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:29.709 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:30.031 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:30.319 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:30.323 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:58:35.983 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:35.986 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:45.233 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:45.236 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:47.630 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:47.633 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:49.619 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:49.622 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:49.892 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:49.895 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:52.631 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:52.634 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:58:56.446 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:58:56.449 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:59:06.070 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:59:06.073 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:59:06.361 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:59:06.365 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:59:08.440 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:59:08.443 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 15:59:28.612 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:59:28.615 [Gauge] [DEBUG] Validation completed.
+16-03-2021 15:59:29.101 [Gauge] [DEBUG] Validation started.
+16-03-2021 15:59:29.104 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:25:16.963 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:25:16.968 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:32:02.911 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:32:02.913 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:32:03.346 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:32:03.348 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:32:03.386 [Gauge] [DEBUG] request #659: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 16:32:03.387 [Gauge] [DEBUG] request #660: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 16:32:03.485 [Gauge] [DEBUG] request #661: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 16:32:03.637 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 16:32:03.640 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 16:32:05.302 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:32:05.304 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:32:05.343 [Gauge] [DEBUG] request #663: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 16:32:05.344 [Gauge] [DEBUG] request #664: textDocument/codeLens: failed to parse c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario
+16-03-2021 16:32:05.443 [Gauge] [DEBUG] request #665: textDocument/documentSymbol: parsing failed for c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec. [[ParseError] c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec:1 Spec should have atleast one scenario => '']
+16-03-2021 16:32:05.721 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:32:05.724 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:32:06.013 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 16:32:06.016 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 16:32:11.627 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:32:11.630 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:32:11.924 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 16:32:11.928 [Gauge] [INFO] Spec file added / modified: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\demo.spec
+16-03-2021 16:36:54.062 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:36:54.067 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:36:57.501 [Gauge] [INFO] Spec file removed: c:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\specs\example.spec
+16-03-2021 16:36:57.574 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:36:57.575 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:36:57.873 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:36:57.874 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:37:03.637 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:37:03.638 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:37:03.898 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:37:03.898 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:37:05.684 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:37:05.685 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:37:22.011 [python] [DEBUG] KillProcessrequest received
+16-03-2021 16:37:22.617 [Gauge] [DEBUG] Runner with PID:6332 has exited
+16-03-2021 16:37:22.625 [Gauge] [INFO] Connection closed
+16-03-2021 16:37:22.625 [Gauge] [ERROR] Unable to log error 'Connection closed' to LSP: jsonrpc2: connection is closed

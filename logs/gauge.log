@@ -1,0 +1,61 @@
+16-03-2021 16:35:55.044 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\.gauge\screenshots
+16-03-2021 16:35:55.047 [Gauge] [DEBUG] Plugin python is already installed.
+16-03-2021 16:35:55.049 [Gauge] [DEBUG] Plugin html-report is already installed.
+16-03-2021 16:35:55.049 [Gauge] [DEBUG] Parsing started.
+16-03-2021 16:35:55.049 [Gauge] [DEBUG] Started concepts parsing.
+16-03-2021 16:35:55.051 [Gauge] [DEBUG] 0 concepts parsing completed.
+16-03-2021 16:35:55.052 [Gauge] [DEBUG] Started specifications parsing.
+16-03-2021 16:35:55.053 [Gauge] [DEBUG] 2 specifications parsing completed.
+16-03-2021 16:35:55.053 [Gauge] [DEBUG] Parsing completed.
+16-03-2021 16:35:55.246 [Gauge] [DEBUG] Checking updates...
+16-03-2021 16:35:55.248 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:55.382 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:55.416 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:55.451 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:55.484 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ruby?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:55.519 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:55.554 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:55.586 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+16-03-2021 16:35:56.511 [python] [INFO] Python: 3.9.2
+16-03-2021 16:35:56.511 [python] [DEBUG] Loading step implementations from C:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\step_impl dirs.
+16-03-2021 16:35:56.543 [python] [DEBUG] Starting grpc server..
+16-03-2021 16:35:56.559 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63351
+16-03-2021 16:35:56.561 [Gauge] [DEBUG] Successfully made the connection with runner with port: 63351
+16-03-2021 16:35:56.561 [Gauge] [DEBUG] Validation started.
+16-03-2021 16:35:56.583 [Gauge] [DEBUG] Validation completed.
+16-03-2021 16:35:56.584 [Gauge] [DEBUG] Run started
+16-03-2021 16:35:56.585 [Gauge] [DEBUG] Starting Html Report plugin
+16-03-2021 16:35:56.658 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 63354
+16-03-2021 16:35:56.659 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 63354
+16-03-2021 16:35:56.659 [Gauge] [DEBUG] Initialising suite data store.
+16-03-2021 16:35:57.058 [Gauge] [INFO] # Specification Heading
+16-03-2021 16:35:57.060 [Gauge] [INFO] ## Get US location Scenario
+16-03-2021 16:35:57.063 [Gauge] [DEBUG] * User can get location for US.
+16-03-2021 16:35:57.358 [Gauge] [INFO] # Specification Heading
+16-03-2021 16:35:57.360 [Gauge] [INFO] ## Vowel counts in single word
+16-03-2021 16:35:57.362 [Gauge] [DEBUG] * Vowels in English language are "aeiou".
+
+16-03-2021 16:35:57.365 [Gauge] [DEBUG] * The word "gauge" has "3" vowels.
+
+16-03-2021 16:35:57.368 [Gauge] [INFO] ## Vowel counts in multiple word
+16-03-2021 16:35:57.370 [Gauge] [DEBUG] * Vowels in English language are "aeiou".
+
+16-03-2021 16:35:57.372 [Gauge] [DEBUG] * Almost all words have vowels 
+
+   |Word  |Vowel Count|
+   |------|-----------|
+   |Gauge |3          |
+   |Mingle|2          |
+   |Snap  |1          |
+   |GoCD  |1          |
+   |Rhythm|0          |
+16-03-2021 16:35:57.379 [html-report] [DEBUG] Transformed SuiteResult to report structure
+16-03-2021 16:35:57.584 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+16-03-2021 16:35:57.584 [html-report] [INFO] Successfully generated html-report to => C:\Users\sembhyh\Documents\Self_Development\gauge_framework\gauge-tests\reports\html-report\index.html
+16-03-2021 16:35:57.584 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sembhyh\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+16-03-2021 16:35:57.585 [python] [DEBUG] KillProcessrequest received
+16-03-2021 16:35:58.189 [Gauge] [DEBUG] Runner with PID:17628 has exited
+16-03-2021 16:35:58.189 [Gauge] [INFO] Specifications:	2 executed	2 passed	0 failed	0 skipped
+16-03-2021 16:35:58.189 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
+16-03-2021 16:35:58.190 [Gauge] [INFO] 
+Total time taken: 794ms
