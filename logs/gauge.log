@@ -59,3 +59,248 @@
 16-03-2021 16:35:58.189 [Gauge] [INFO] Scenarios:	3 executed	3 passed	0 failed	0 skipped
 16-03-2021 16:35:58.190 [Gauge] [INFO] 
 Total time taken: 794ms
+18-03-2021 14:23:16.699 [Gauge] [DEBUG] Created gauge_screenshots_dir at c:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\.gauge\screenshots
+18-03-2021 14:23:16.700 [Gauge] [DEBUG] Plugin html-report is already installed.
+18-03-2021 14:23:16.701 [Gauge] [DEBUG] Plugin python is already installed.
+18-03-2021 14:23:16.701 [Gauge] [DEBUG] Parsing started.
+18-03-2021 14:23:16.701 [Gauge] [DEBUG] Started concepts parsing.
+18-03-2021 14:23:16.703 [Gauge] [DEBUG] 0 concepts parsing completed.
+18-03-2021 14:23:16.703 [Gauge] [DEBUG] Started specifications parsing.
+18-03-2021 14:23:16.704 [Gauge] [DEBUG] 1 specifications parsing completed.
+18-03-2021 14:23:16.704 [Gauge] [DEBUG] Parsing completed.
+18-03-2021 14:23:16.909 [Gauge] [DEBUG] Checking updates...
+18-03-2021 14:23:16.911 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.029 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.064 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.117 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.153 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ruby?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.186 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.222 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.258 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:17.385 [python] [INFO] Python: 3.9.2
+18-03-2021 14:23:17.385 [python] [DEBUG] Loading step implementations from c:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\step_impl dirs.
+18-03-2021 14:23:17.393 [python] [DEBUG] Starting grpc server..
+18-03-2021 14:23:17.397 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49395
+18-03-2021 14:23:17.398 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49395
+18-03-2021 14:23:17.398 [Gauge] [DEBUG] Validation started.
+18-03-2021 14:23:17.405 [Gauge] [DEBUG] Validation completed.
+18-03-2021 14:23:17.406 [Gauge] [DEBUG] Run started
+18-03-2021 14:23:17.407 [Gauge] [DEBUG] Starting Html Report plugin
+18-03-2021 14:23:17.501 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49398
+18-03-2021 14:23:17.502 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49398
+18-03-2021 14:23:17.502 [Gauge] [DEBUG] Initialising suite data store.
+18-03-2021 14:23:17.824 [Gauge] [INFO] # Specification Heading
+18-03-2021 14:23:17.827 [Gauge] [INFO] ## Get US location Scenario
+18-03-2021 14:23:17.830 [Gauge] [DEBUG] * User can get location for US.
+18-03-2021 14:23:18.114 [html-report] [DEBUG] Transformed SuiteResult to report structure
+18-03-2021 14:23:18.160 [html-report] [INFO] Successfully generated html-report to => c:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\reports\html-report\index.html
+18-03-2021 14:23:18.160 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sembhyh\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+18-03-2021 14:23:18.160 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+18-03-2021 14:23:18.162 [python] [DEBUG] KillProcessrequest received
+18-03-2021 14:23:18.765 [Gauge] [DEBUG] Runner with PID:19680 has exited
+18-03-2021 14:23:18.765 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:23:18.765 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:23:18.765 [Gauge] [INFO] 
+Total time taken: 706ms
+18-03-2021 14:23:18.765 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+18-03-2021 14:23:40.704 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\.gauge\screenshots
+18-03-2021 14:23:40.705 [Gauge] [DEBUG] Plugin python is already installed.
+18-03-2021 14:23:40.706 [Gauge] [DEBUG] Plugin html-report is already installed.
+18-03-2021 14:23:40.706 [Gauge] [DEBUG] Parsing started.
+18-03-2021 14:23:40.706 [Gauge] [DEBUG] Started concepts parsing.
+18-03-2021 14:23:40.708 [Gauge] [DEBUG] 0 concepts parsing completed.
+18-03-2021 14:23:40.708 [Gauge] [DEBUG] Started specifications parsing.
+18-03-2021 14:23:40.709 [Gauge] [DEBUG] 1 specifications parsing completed.
+18-03-2021 14:23:40.709 [Gauge] [DEBUG] Parsing completed.
+18-03-2021 14:23:40.909 [Gauge] [DEBUG] Checking updates...
+18-03-2021 14:23:40.911 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.028 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.062 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.095 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.128 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ruby?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.161 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.197 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.229 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:23:41.403 [python] [INFO] Python: 3.9.2
+18-03-2021 14:23:41.403 [python] [DEBUG] Loading step implementations from C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\step_impl dirs.
+18-03-2021 14:23:41.412 [python] [DEBUG] Starting grpc server..
+18-03-2021 14:23:41.417 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49689
+18-03-2021 14:23:41.418 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49689
+18-03-2021 14:23:41.418 [Gauge] [DEBUG] Validation started.
+18-03-2021 14:23:41.424 [Gauge] [DEBUG] Validation completed.
+18-03-2021 14:23:41.425 [Gauge] [DEBUG] Run started
+18-03-2021 14:23:41.425 [Gauge] [DEBUG] Starting Html Report plugin
+18-03-2021 14:23:41.442 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49692
+18-03-2021 14:23:41.443 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49692
+18-03-2021 14:23:41.443 [Gauge] [DEBUG] Initialising suite data store.
+18-03-2021 14:23:41.546 [Gauge] [INFO] # Specification Heading
+18-03-2021 14:23:41.548 [Gauge] [INFO] ## Get US location Scenario
+18-03-2021 14:23:41.555 [Gauge] [DEBUG] * User can get location for US.
+18-03-2021 14:23:41.749 [html-report] [DEBUG] Transformed SuiteResult to report structure
+18-03-2021 14:23:41.769 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+18-03-2021 14:23:41.769 [html-report] [INFO] Successfully generated html-report to => C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\reports\html-report\index.html
+18-03-2021 14:23:41.769 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sembhyh\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+18-03-2021 14:23:41.770 [python] [DEBUG] KillProcessrequest received
+18-03-2021 14:23:42.375 [Gauge] [DEBUG] Runner with PID:34584 has exited
+18-03-2021 14:23:42.375 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:23:42.376 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:23:42.377 [Gauge] [INFO] 
+Total time taken: 322ms
+18-03-2021 14:23:42.379 [Gauge] [INFO] Updates are available. Run `gauge update -c` for more info.
+18-03-2021 14:24:22.066 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\.gauge\screenshots
+18-03-2021 14:24:22.067 [Gauge] [DEBUG] Plugin python is already installed.
+18-03-2021 14:24:22.068 [Gauge] [DEBUG] Plugin html-report is already installed.
+18-03-2021 14:24:22.069 [Gauge] [DEBUG] Parsing started.
+18-03-2021 14:24:22.069 [Gauge] [DEBUG] Started concepts parsing.
+18-03-2021 14:24:22.071 [Gauge] [DEBUG] 0 concepts parsing completed.
+18-03-2021 14:24:22.071 [Gauge] [DEBUG] Started specifications parsing.
+18-03-2021 14:24:22.071 [Gauge] [DEBUG] 1 specifications parsing completed.
+18-03-2021 14:24:22.071 [Gauge] [DEBUG] Parsing completed.
+18-03-2021 14:24:22.248 [Gauge] [DEBUG] Checking updates...
+18-03-2021 14:24:22.250 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.344 [python] [ERROR] '"C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\python.exe -m pip install getgauge==0.3.15 --user"' is not recognized as an internal or external command,
+18-03-2021 14:24:22.344 [python] [ERROR] operable program or batch file.
+18-03-2021 14:24:22.345 [python] [ERROR] Traceback (most recent call last):
+18-03-2021 14:24:22.346 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.15\check_and_install_getgauge.py", line 40, in <module>
+18-03-2021 14:24:22.346 [python] [ERROR] assert_versions()
+18-03-2021 14:24:22.346 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.15\check_and_install_getgauge.py", line 34, in assert_versions
+18-03-2021 14:24:22.346 [python] [ERROR] install_getgauge("getgauge=="+expected_gauge_version)
+18-03-2021 14:24:22.346 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.15\check_and_install_getgauge.py", line 20, in install_getgauge
+18-03-2021 14:24:22.347 [python] [ERROR] check_output([" ".join(install_cmd)], shell=True)
+18-03-2021 14:24:22.347 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 424, in check_output
+18-03-2021 14:24:22.352 [python] [ERROR] return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+18-03-2021 14:24:22.352 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 528, in run
+18-03-2021 14:24:22.352 [python] [ERROR] raise CalledProcessError(retcode, process.args,
+18-03-2021 14:24:22.352 [python] [ERROR] subprocess.CalledProcessError: Command '['C:\\Users\\sembhyh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe -m pip install getgauge==0.3.15 --user']' returned non-zero exit status 1.
+18-03-2021 14:24:22.401 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.439 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.475 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.537 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ruby?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.574 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.609 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.653 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:22.745 [python] [INFO] Python: 3.9.2
+18-03-2021 14:24:22.745 [python] [DEBUG] Loading step implementations from C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\step_impl dirs.
+18-03-2021 14:24:22.752 [python] [DEBUG] Starting grpc server..
+18-03-2021 14:24:22.757 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49726
+18-03-2021 14:24:22.758 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49726
+18-03-2021 14:24:22.758 [Gauge] [DEBUG] Validation started.
+18-03-2021 14:24:22.766 [Gauge] [DEBUG] Validation completed.
+18-03-2021 14:24:22.767 [Gauge] [DEBUG] Run started
+18-03-2021 14:24:22.767 [Gauge] [DEBUG] Starting Html Report plugin
+18-03-2021 14:24:22.785 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49729
+18-03-2021 14:24:22.786 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49729
+18-03-2021 14:24:22.786 [Gauge] [DEBUG] Initialising suite data store.
+18-03-2021 14:24:22.886 [Gauge] [INFO] # Specification Heading
+18-03-2021 14:24:22.888 [Gauge] [INFO] ## Get US location Scenario
+18-03-2021 14:24:22.891 [Gauge] [DEBUG] * User can get location for US.
+18-03-2021 14:24:23.088 [html-report] [DEBUG] Transformed SuiteResult to report structure
+18-03-2021 14:24:23.107 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+18-03-2021 14:24:23.107 [html-report] [INFO] Successfully generated html-report to => C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\reports\html-report\index.html
+18-03-2021 14:24:23.107 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sembhyh\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+18-03-2021 14:24:23.108 [python] [DEBUG] KillProcessrequest received
+18-03-2021 14:24:23.711 [Gauge] [DEBUG] Runner with PID:30048 has exited
+18-03-2021 14:24:23.711 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:24:23.711 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:24:23.712 [Gauge] [INFO] 
+Total time taken: 321ms
+18-03-2021 14:24:38.068 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\.gauge\screenshots
+18-03-2021 14:24:38.070 [Gauge] [DEBUG] Plugin python is already installed.
+18-03-2021 14:24:38.071 [Gauge] [DEBUG] Plugin html-report is already installed.
+18-03-2021 14:24:38.071 [Gauge] [DEBUG] Parsing started.
+18-03-2021 14:24:38.071 [Gauge] [DEBUG] Started concepts parsing.
+18-03-2021 14:24:38.073 [Gauge] [DEBUG] 0 concepts parsing completed.
+18-03-2021 14:24:38.074 [Gauge] [DEBUG] Started specifications parsing.
+18-03-2021 14:24:38.074 [Gauge] [DEBUG] 1 specifications parsing completed.
+18-03-2021 14:24:38.075 [Gauge] [DEBUG] Parsing completed.
+18-03-2021 14:24:38.271 [Gauge] [DEBUG] Checking updates...
+18-03-2021 14:24:38.273 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.354 [python] [ERROR] '"C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\python.exe -m pip install getgauge==0.3.15 --user"' is not recognized as an internal or external command,
+18-03-2021 14:24:38.354 [python] [ERROR] operable program or batch file.
+18-03-2021 14:24:38.356 [python] [ERROR] Traceback (most recent call last):
+18-03-2021 14:24:38.356 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.15\check_and_install_getgauge.py", line 40, in <module>
+18-03-2021 14:24:38.357 [python] [ERROR] assert_versions()
+18-03-2021 14:24:38.357 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.15\check_and_install_getgauge.py", line 34, in assert_versions
+18-03-2021 14:24:38.357 [python] [ERROR] install_getgauge("getgauge=="+expected_gauge_version)
+18-03-2021 14:24:38.357 [python] [ERROR] File "C:\Users\sembhyh\AppData\Roaming\gauge\plugins\python\0.3.15\check_and_install_getgauge.py", line 20, in install_getgauge
+18-03-2021 14:24:38.357 [python] [ERROR] check_output([" ".join(install_cmd)], shell=True)
+18-03-2021 14:24:38.358 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 424, in check_output
+18-03-2021 14:24:38.358 [python] [ERROR] return run(*popenargs, stdout=PIPE, timeout=timeout, check=True,
+18-03-2021 14:24:38.358 [python] [ERROR] File "C:\Users\sembhyh\AppData\Local\Programs\Python\Python39\lib\subprocess.py", line 528, in run
+18-03-2021 14:24:38.358 [python] [ERROR] raise CalledProcessError(retcode, process.args,
+18-03-2021 14:24:38.358 [python] [ERROR] subprocess.CalledProcessError: Command '['C:\\Users\\sembhyh\\AppData\\Local\\Programs\\Python\\Python39\\python.exe -m pip install getgauge==0.3.15 --user']' returned non-zero exit status 1.
+18-03-2021 14:24:38.399 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.435 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.474 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.522 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ruby?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.557 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.595 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.631 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:24:38.768 [python] [INFO] Python: 3.9.2
+18-03-2021 14:24:38.768 [python] [DEBUG] Loading step implementations from C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\step_impl dirs.
+18-03-2021 14:24:38.775 [python] [DEBUG] Starting grpc server..
+18-03-2021 14:24:38.780 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49745
+18-03-2021 14:24:38.781 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49745
+18-03-2021 14:24:38.781 [Gauge] [DEBUG] Validation started.
+18-03-2021 14:24:38.789 [Gauge] [DEBUG] Validation completed.
+18-03-2021 14:24:38.789 [Gauge] [DEBUG] Run started
+18-03-2021 14:24:38.790 [Gauge] [DEBUG] Starting Html Report plugin
+18-03-2021 14:24:38.808 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49748
+18-03-2021 14:24:38.809 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49748
+18-03-2021 14:24:38.809 [Gauge] [DEBUG] Initialising suite data store.
+18-03-2021 14:24:38.923 [Gauge] [INFO] # Specification Heading
+18-03-2021 14:24:38.927 [Gauge] [INFO] ## Get US location Scenario
+18-03-2021 14:24:38.929 [Gauge] [DEBUG] * User can get location for US.
+18-03-2021 14:24:39.127 [html-report] [DEBUG] Transformed SuiteResult to report structure
+18-03-2021 14:24:39.149 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+18-03-2021 14:24:39.150 [html-report] [INFO] Successfully generated html-report to => C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\reports\html-report\index.html
+18-03-2021 14:24:39.150 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sembhyh\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+18-03-2021 14:24:39.151 [python] [DEBUG] KillProcessrequest received
+18-03-2021 14:24:39.756 [Gauge] [DEBUG] Runner with PID:25992 has exited
+18-03-2021 14:24:39.756 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:24:39.756 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:24:39.757 [Gauge] [INFO] 
+Total time taken: 337ms
+18-03-2021 14:25:44.500 [Gauge] [DEBUG] Created gauge_screenshots_dir at C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\.gauge\screenshots
+18-03-2021 14:25:44.501 [Gauge] [DEBUG] Plugin python is already installed.
+18-03-2021 14:25:44.501 [Gauge] [DEBUG] Plugin html-report is already installed.
+18-03-2021 14:25:44.502 [Gauge] [DEBUG] Parsing started.
+18-03-2021 14:25:44.502 [Gauge] [DEBUG] Started concepts parsing.
+18-03-2021 14:25:44.504 [Gauge] [DEBUG] 0 concepts parsing completed.
+18-03-2021 14:25:44.505 [Gauge] [DEBUG] Started specifications parsing.
+18-03-2021 14:25:44.505 [Gauge] [DEBUG] 1 specifications parsing completed.
+18-03-2021 14:25:44.505 [Gauge] [DEBUG] Parsing completed.
+18-03-2021 14:25:44.690 [Gauge] [DEBUG] Checking updates...
+18-03-2021 14:25:44.692 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/dotnet?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:44.815 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/html-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:44.847 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/js?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:44.883 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/python?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:44.918 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/ruby?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:44.953 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/screenshot?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:44.985 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/spectacle?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:45.018 [Gauge] [DEBUG] Downloading https://downloads.gauge.org/plugin/xml-report?l=python&p=dotnet,html-report,js,python,ruby,screenshot,spectacle,xml-report&o=windows&a=amd64
+18-03-2021 14:25:45.178 [python] [INFO] Python: 3.9.2
+18-03-2021 14:25:45.178 [python] [DEBUG] Loading step implementations from C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\step_impl dirs.
+18-03-2021 14:25:45.185 [python] [DEBUG] Starting grpc server..
+18-03-2021 14:25:45.190 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49899
+18-03-2021 14:25:45.191 [Gauge] [DEBUG] Successfully made the connection with runner with port: 49899
+18-03-2021 14:25:45.191 [Gauge] [DEBUG] Validation started.
+18-03-2021 14:25:45.198 [Gauge] [DEBUG] Validation completed.
+18-03-2021 14:25:45.199 [Gauge] [DEBUG] Run started
+18-03-2021 14:25:45.199 [Gauge] [DEBUG] Starting Html Report plugin
+18-03-2021 14:25:45.217 [Gauge] [DEBUG] Attempting to connect to grpc server at port: 49902
+18-03-2021 14:25:45.218 [Gauge] [DEBUG] Successfully made the connection with plugin with port: 49902
+18-03-2021 14:25:45.218 [Gauge] [DEBUG] Initialising suite data store.
+18-03-2021 14:25:45.319 [Gauge] [INFO] # Specification Heading
+18-03-2021 14:25:45.321 [Gauge] [INFO] ## Get US location Scenario
+18-03-2021 14:25:45.324 [Gauge] [DEBUG] * User can get location for US.
+18-03-2021 14:25:45.925 [html-report] [DEBUG] Transformed SuiteResult to report structure
+18-03-2021 14:25:45.941 [Gauge] [DEBUG] Sending kill message to Html Report plugin.
+18-03-2021 14:25:45.942 [html-report] [INFO] Successfully generated html-report to => C:\Users\sembhyh\Documents\Self_Development\gauge_framework\pythonci\reports\html-report\index.html
+18-03-2021 14:25:45.942 [html-report] [DEBUG] Done generating HTML report using theme from C:\Users\sembhyh\AppData\Roaming\gauge\plugins\html-report\4.0.12\themes\default
+18-03-2021 14:25:45.943 [python] [DEBUG] KillProcessrequest received
+18-03-2021 14:25:46.546 [Gauge] [DEBUG] Runner with PID:29028 has exited
+18-03-2021 14:25:46.546 [Gauge] [INFO] Specifications:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:25:46.546 [Gauge] [INFO] Scenarios:	1 executed	1 passed	0 failed	0 skipped
+18-03-2021 14:25:46.547 [Gauge] [INFO] 
+Total time taken: 725ms
